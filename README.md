@@ -1,2 +1,2 @@
 # library
-a web application capable of manages books
+a web application capable of manage library
