@@ -1,2 +1,2 @@
 # library
-library_app
+ create an application that manages a library
