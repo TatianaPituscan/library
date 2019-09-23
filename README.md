@@ -1,2 +1,2 @@
 # library
- create an application that manages a library
+a web application capable of manages books
