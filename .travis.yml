@@ -1,7 +1,9 @@
-jdk: oraclejdk8
+jdk: openjdk8
+
 script:
     -mvn clean verify
+
 cache:
     directories:
-    - .autoconf
-    - $HOME/.m2
+        - .autoconf
+        - $HOME/.m2
