@@ -19,7 +19,7 @@ CREATE TABLE "book" (
 );
 
 CREATE TABLE "borrowed_book" (
-  "id" int,
+  "id" int UNIQUE PRIMARY KEY NOT NULL,
   "book_isbn" varchar,
   "client_id" int,
   "borrow_date" date
